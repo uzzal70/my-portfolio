@@ -1,6 +1,8 @@
 
 nav {
     
+        background-color: black;
+    
     .img{
         height: 200px;
         width: 200px;
@@ -202,6 +204,10 @@ nav {
 // <!-- Service section area End  -->
 // <!-- Filter galary section area Start-->
 .project-area{
+    a{
+        text-decoration: none;
+        color: white;
+    }
     .gallery-title{
         &:after {
             content: "";
@@ -235,7 +241,7 @@ nav {
                 display: none;
                 z-index: 0;
                 display: block;
-                border:10px solid crimson !important;
+                border:10px solid #212529!important;
                 transition: 2s;
                 transform: scale(1);
             }
@@ -255,6 +261,8 @@ nav {
                 transform: scale(1.1);
             }
             .btn1, .btn2{
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
                 background-color: rgb(255, 5, 109);
             }
 

@@ -1,3 +1,7 @@
+nav {
+  background-color: black;
+}
+
 nav .img {
   height: 200px;
   width: 200px;
@@ -211,6 +215,11 @@ nav li a:hover:after {
   color: #ff056d;
 }
 
+.project-area a {
+  text-decoration: none;
+  color: white;
+}
+
 .project-area .gallery-title:after {
   content: "";
   position: absolute;
@@ -246,7 +255,7 @@ nav li a:hover:after {
   display: none;
   z-index: 0;
   display: block;
-  border: 10px solid crimson !important;
+  border: 10px solid #212529 !important;
   -webkit-transition: 2s;
   transition: 2s;
   -webkit-transform: scale(1);
@@ -275,6 +284,8 @@ nav li a:hover:after {
 }
 
 .project-area .gallery_product .btn1, .project-area .gallery_product .btn2 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
   background-color: #ff056d;
 }
 
