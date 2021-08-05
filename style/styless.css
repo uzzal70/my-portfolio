@@ -290,25 +290,25 @@ nav li a:hover:after {
 }
 
 /* blog-area Start */
-#blog-area {
+.blog-area {
   background: linear-gradient(-45deg, #026a7c 50%, deeppink 50%);
   min-height: 70vh;
   padding-bottom: 20px;
 }
 
-#blog-area .carousel-indicators {
+.blog-area .carousel-indicators {
   position: absolute;
   bottom: -20px;
 }
 
-#blog-area .carousel-indicators button {
+.blog-area .carousel-indicators button {
   width: 17px !important;
   height: 17px !important;
   border-radius: 50%;
   background-color: white;
 }
 
-#blog-area .text-area {
+.blog-area .text-area {
   width: 100%;
   height: 300px;
   text-align: center;
@@ -318,18 +318,18 @@ nav li a:hover:after {
   color: #b3adad;
 }
 
-#blog-area .text-area h2 {
+.blog-area .text-area h2 {
   font-weight: 400;
   color: crimson;
   text-transform: uppercase;
 }
 
-#blog-area .single-box {
+.blog-area .single-box {
   position: relative;
   margin-bottom: 30px;
 }
 
-#blog-area .img-area {
+.blog-area .img-area {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -340,12 +340,12 @@ nav li a:hover:after {
   border-radius: 50%;
 }
 
-#blog-area .img-area img {
+.blog-area .img-area img {
   padding: 10px;
   width: 100%;
 }
 
-#blog-area .carousel-control-prev-icon, #blog-area .carousel-control-next-icon {
+.blog-area .carousel-control-prev-icon, .blog-area .carousel-control-next-icon {
   display: none;
 }
 
