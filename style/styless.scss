@@ -63,7 +63,7 @@ nav {
     transition: all .1s ease;
     }
     .font-size{
-        font-size: 4em;
+        font-size: 3rem;
     }
     .btn-pdf{
         cursor: pointer;
@@ -81,6 +81,49 @@ nav {
     }
 }
 // End Header body area 
+
+// Type write Animation Start-------
+// {
+//     box-sizing: border-box;
+//     padding: 0;
+//     margin: 0;
+//     outline: none;
+//   }
+
+  .dev-body {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: flex;
+  }
+
+  .dev-write {
+    
+    white-space:nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(50) infinite alternate,
+      blink 10000ms steps(50) infinite normal;
+    border-right: 5px solid rgb(250, 249, 249);
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: rgb(245, 245, 245);
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+// Type write Animation End-----------------
+
 // <!-- About section area start  -->
 .about-area, .service-area{
     background-color: black;
@@ -329,7 +372,42 @@ nav {
   }
 /* End of Blog area */
 
+/* --------Form Start----------- */
 
+    #status {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+    }
+
+    #status.success {
+    background-color: rgb(2, 205, 241);
+    animation: status 4s ease forwards;
+    }
+
+  #status.error {
+    background-color: rgb(255, 0, 0);
+    animation: status 4s ease forwards;
+  }
+
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+/* --------Form End----------- */
 /* --------Footer start----------- */
 
 

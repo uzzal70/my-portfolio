@@ -68,7 +68,7 @@ nav li a:hover:after {
 }
 
 .header-bg-img .font-size {
-  font-size: 4em;
+  font-size: 3rem;
 }
 
 .header-bg-img .btn-pdf {
@@ -85,6 +85,63 @@ nav li a:hover:after {
 .header-bg-img .custom-bar {
   background-color: white;
   color: white;
+}
+
+.dev-body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dev-write {
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typewriter 4s steps(50) infinite alternate, blink 10000ms steps(50) infinite normal;
+          animation: typewriter 4s steps(50) infinite alternate, blink 10000ms steps(50) infinite normal;
+  border-right: 5px solid #faf9f9;
+}
+
+@-webkit-keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink {
+  from {
+    border-color: whitesmoke;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: whitesmoke;
+  }
+  to {
+    border-color: transparent;
+  }
 }
 
 .about-area, .service-area {
@@ -357,6 +414,58 @@ nav li a:hover:after {
 }
 
 /* End of Blog area */
+/* --------Form Start----------- */
+#status {
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#status.success {
+  background-color: #02cdf1;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: red;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/* --------Form End----------- */
 /* --------Footer start----------- */
 footer .icon i {
   width: 40px;
