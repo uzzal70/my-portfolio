@@ -316,7 +316,7 @@ nav li a:hover:after {
 
 .project-area .gallery_product .btn-over {
   top: 33%;
-  left: 18%;
+  left: 12%;
   z-index: 100;
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -335,7 +335,7 @@ nav li a:hover:after {
           transform: scale(1.1);
 }
 
-.project-area .gallery_product .btn1, .project-area .gallery_product .btn2 {
+.project-area .gallery_product .btn1 {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
   background-color: #ff056d;
